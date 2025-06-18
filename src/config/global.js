@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre_del_recurso_educativo',
-    descripcionCurso: 'Descripción_del_RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    componenteFormativo: 'Fundamentos normativos de seguridad social',
+    descripcionCurso:
+      'Este componente introduce a los aprendices en los conceptos fundamentales del marco normativo de la seguridad social en salud, proporcionando una base sólida sobre su importancia en el desarrollo de las actividades. Se explorarán los principios del derecho y las normas que rigen la seguridad social en salud de Colombia.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,28 +32,91 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Sistema General de Seguridad Social en Salud (SGSSS)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Principios rectores del sistema',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'La protección social del sistema de salud colombiano',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Usuarios del Sistema General de Seguridad Social en Salud',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Usuarios internos del sistema de salud colombiano',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Usuarios externos del sistema de salud colombiano',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Derecho a la salud',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Conformación Sistema General de Seguridad Social en Salud',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Sistema General de Pensiones colombiano',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Sistema General de Riesgos Profesionales',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Servicios sociales complementarios',
+            hash: 't_5_4',
+          },
+          {
+            numero: '5.5',
+            titulo: 'Servicio de salud en Colombia',
+            hash: 't_5_5',
+          },
+          {
+            numero: '5.6',
+            titulo:
+              'Acceso al Sistema General de Seguridad Social en Salud (SGSSS)',
+            hash: 't_5_6',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Tipos de usuario en el sistema de salud en Colombia',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Usuarios internos del sistema de salud colombiano',
+            hash: 't_6_1',
+          },
+        ],
       },
     ],
     subMenu: [
