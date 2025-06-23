@@ -166,28 +166,66 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: '5.1. Conformación Sistema General de Seguridad Social en Salud',
+      referencia:
+        'Ecosistema de Recursos Educativos SENA. (2024). Sistema general en salud en Colombia para los regímenes contributivo y subsidiado. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=BBCvcTlDNds',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '6.1. Marco normativo del sistema de salud colombiano',
+      referencia:
+        'Ministerio de Salud y Protección Social. (1993). Ley 100 de 1993, por la cual se establece el sistema de seguridad social en salud y se dictan otras disposiciones.',
+      tipo: 'Ley',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-100-de-1993.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Afiliación',
+      significado:
+        'es el proceso mediante el cual las personas se inscriben formalmente en el sistema, ya sea en el régimen contributivo, para quienes tienen capacidad de pago o en el régimen subsidiado, dirigido a las personas en situación de pobreza o vulnerabilidad.',
+    },
+    {
+      termino: 'Aseguramiento',
+      significado:
+        'se refiere a la protección que recibe una persona o familia, mediante un seguro, el cual les ayuda a cubrir los costos de atención médica cuando lo necesitan.',
+    },
+    {
+      termino: 'Entidades Promotoras – EPS',
+      significado:
+        'son organizaciones encargadas de administrar y gestionar los seguros de salud. Su función principal es inscribir a las personas en un plan de salud, ofrecerles la cobertura y coordinar los servicios médicos que necesitan.',
+    },
+    {
+      termino: 'Plan de beneficios',
+      significado:
+        'conjunto de servicios y coberturas que una Entidad Promotora de Salud (EPS) ofrece a sus afiliados.',
+    },
+    {
+      termino: 'Prestadores de servicios',
+      significado:
+        'son las instituciones, profesionales o entidades que ofrecen atención médica y servicios relacionados para cuidar y mejorar la salud de las personas. Esto puede incluir hospitales, clínicas, médicos, enfermeros, laboratorios, farmacias, entre otros.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Alcaldía de Cali. (s.f.). Principios del Sistema General de Seguridad Social en Salud. Secretaría de Salud Pública.',
+      link:
+        'https://www.cali.gov.co/salud/publicaciones/52436/principios-del-sistema-general-de-seguridad-social-en-salud/',
+    },
+    {
+      referencia:
+        'Gañán Echavarría, J. L. (2013). De la naturaleza jurídica del derecho a la salud en Colombia. Ministerio de Salud y Protección Social.',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/IA/SSA/naturaleza-juridica-derecho-salud-colombia.pdf',
+    },
+    {
+      referencia:
+        'Superintendencia Nacional de Salud. (2025). Misión y visión.',
+      link:
+        'https://www.supersalud.gov.co/es-co/nuestra-entidad/estructura-organica-y-talento-humano/mision-y-vision',
     },
   ],
   creditos: [
@@ -211,9 +249,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Cargo_Experto',
-          centro: 'Regional_Experto',
+          nombre: 'Ramiro E. Barrientos Gómez',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -226,22 +270,23 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Juan Daniel Polanco Muñoz',
+          nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+
+        {
+          nombre: 'Veimar Celis Meléndez',
+          cargo: 'Desarrollador <em>Fullstack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -253,11 +298,6 @@ export default {
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
