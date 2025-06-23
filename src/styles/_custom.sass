@@ -1,15 +1,43 @@
 .banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
-  &-2
+  &-3
+    width: 50px
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 45%
+  &-4
+    width: 90px
+    animation: scale 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 25%
+    right: 55%
+  &-1
+    width: 80px
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 95%
+  &-2
+    width: 80px
+    animation: scale 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 25%
+    right: 15%
+  &-5
+    width: 70px
+    animation: rotation 4s infinite linear
+    position: absolute
+    bottom: 15%
+    left: 15%
+    z-index: -2
 
+.banner-principal__row 
+  height: 480px
+@-webkit-keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
 
 @keyframes float1
   0%
@@ -17,10 +45,348 @@
 
   100%
     transform: translateY(0px)
-  
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
+
 figcaption
   font-weight: normal
+.tarjeta--verde
+  background-color: #D1F3F5
+  .p-4
+    margin-left: -55px
+    .fa-angle-right
+      color: #B5AAE8 !important
+.tarjeta--gris
+  background-color: #C9DAEC
+.tarjeta-avatar-b__img
+  img
+    width: 70%
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/tema2/imgfondo.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta-BG02
+  background: #ac1212
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(228, 247, 249, 1) 20%, rgba(235, 246, 255, 1) 84%, rgba(255, 255, 255, 1) 100%)
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.tarjeta--BG043
+  background-image: url("../assets/curso/temas/tema4/imgfondoslyder.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta--BG056
+  background-image: url("../assets/curso/temas/tema5/fondoimg.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG02
+  background-color: #FFFFFF !important
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+.bgblanco
+  background-color: white
+.bloque-texto-g.color-secundario
+  background-color: #B4EEFF !important
+h3.col
+  color:#0720AC
 
 .BG03
-  background-color: #B5CCAD
- 
+  background: linear-gradient(to right, #DDF1FF 12%, #D1F3F5 12%)
+  @media (max-width: $bp-max-md)
+    background: linear-gradient(to bottom, #DDF1FF 22%, #D1F3F5 22%)
+
+//pestañas TabsA
+.tabs-a__tab
+  background-color: #C9DAEC
+.tarjeta.color-acento-botones--borde
+    background-color: #D1F3F5
+    border: solid 1px #ABDBFF
+.cajon.color-primario
+  background-color: #DDF1FF
+.tarjeta.color-primario
+  background-color: #DDF1FF
+.cajon.color.secundario
+  background-color: #D1F3F5
+.tarjeta.color-primario.tarjcone
+  background-color: #ABDBFF
+.tarjeta.color-secundario.tarjcone
+  background-color: #8CE2E5
+.tarjeta-numerada.color-adicional
+    border-color: #C9DAEC
+.tarjeta-numerada.color-adicional .tarjeta-numerada__numero
+    background-color: #C9DAEC
+.tarjeta--BG04
+  background-color: #FFFFFF !important
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG05
+  background-color: #E9EFFF !important
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+.tarjeta--BG06
+  background-color: #ECE0FF !important
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  li
+    display: flex
+// versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+.tarjeta--tabla
+  background-color: #E9EFFF
+.tarjeta--tabla:nth-child(even)
+    background-color:#D1FFF8
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #8CE2E5
+  background-color: #8CE2E5
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 2px solid #AC064C
+  background-color: #AC064C
+  color: white !important
+.pasos-b__header__item__dot i
+  color: black
+
+.titulo
+  background-color:#D1F3F5
+  color: black
+  padding: 2px 10px
+  border-radius: 50px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  height: 31px
+.titulo h5
+  margin-right: 23px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px
+
+.acordion__activo
+  background-color: #D1F3F5 !important
+.fa-angle-down, .fa-angle-up
+  color: $white
+
+///////// Card hover --------------------------------------
+//- tarjeta de deslizamiento arriba abajo 
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -82%
+    @media (max-width: $bp-max-lg)
+      bottom: -85%
+    @media (max-width: $bp-max-md)
+      bottom: -87%
+    @media (max-width: $bp-max-sm)
+      bottom: -85%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -40%
+      @media (max-width: $bp-max-xl)
+        bottom: -20%
+      @media (max-width: $bp-max-lg)
+        bottom: -30%
+      @media (max-width: $bp-max-md)
+        bottom: -47%
+      @media (max-width: $bp-max-sm)
+        bottom: -38%
+      @media (max-width: $bp-max-xs)
+        bottom: -20%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+.ubicar h4
+  margin-top: -34px
+  margin-left: 55px  
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #F0D4E0
+
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  
+  
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    background-image: url("../assets/curso/temas/tema2/imgfontarj.png")
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background-image: url("../assets/curso/temas/tema2/imgfondtar2.png")
+      h4, p
+        color: black 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 15px
+    height: 15px
+    
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #12263F
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #ABDBFF
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #D1F3F5 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+///// utilidades --------------------------------------
+.img65
+  width: 65px  
+.img90
+  width: 90px  
+.img250
+  width: 250px  
+.brd--rad
+  border-radius: 20px
+.hr--line
+  margin: 1rem 0
+  width: 100%
+  height: 1px  
+  background-color: #B0C0D2
+.b--rad
+  border-radius: 0px 0px 20px 20px 
+.bg--gradientBlue        
+  background: linear-gradient(0deg, rgba(215,236,252,1) 0%, rgba(239,246,252,1) 100%)
+
+.dialogo.color-primario .dialogo__words__word
+  color: #3c7792 !important
+
+li
+  display: flex
+
+.tit-tarj
+  margin-top: -35px
+  background-color: #F0D4E0
+  height: 60px
+  border-radius: 20px
+
+i.fas.fa-angle-up
+  color: white
+.tarjeta .tarjeta--azul
+  background-color: #CFDBDE
