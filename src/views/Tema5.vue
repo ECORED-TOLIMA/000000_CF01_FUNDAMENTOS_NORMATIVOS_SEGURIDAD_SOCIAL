@@ -406,7 +406,7 @@
           .row(titulo="")
             .col-md-12.mb-4.mb-md-0
               h4 Atención psicosocial
-              p Servicios de orientación, apoyo psicológico y social para personas afectadas por situaciones de violencia, discapacidad, adicciones o crisis familiares.
+              p.izquierda Servicios de orientación, apoyo psicológico y social para personas afectadas por situaciones de violencia, discapacidad, adicciones o crisis familiares.
           .row(titulo="")
             .col-md-12.mb-4.mb-md-0
               h4 Atención a adultos mayores
@@ -414,7 +414,7 @@
           .row(titulo="")
             .col-md-12.mb-4.mb-md-0
               h4 Rehabilitación e inclusión social
-              p Servicios dirigidos a personas con discapacidad para facilitar su integración social y laboral.
+              p.izquierda Servicios dirigidos a personas con discapacidad para facilitar su integración social y laboral.
           .row(titulo="")
             .col-md-12.mb-4.mb-md-0
               h4 Apoyo en salud mental
