@@ -45,7 +45,7 @@
               figure
                 img(src="@/assets/curso/temas/tema6/img4.svg", alt="alt").img100
             .col
-              h5 Características:
+              h5 Características
               ul.lista-ul--color
                 li
                   i.fas.fa-angle-right
@@ -246,6 +246,7 @@
       .col-lg-9
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Afiliación y cobertura")
+            h4 Afiliación y cobertura
             ul.lista-ul--color
               li
                 i.fas.fa-angle-right
@@ -255,6 +256,7 @@
                 | La afiliación es automática al ingresar a la institución.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Entidades responsables")
+            h4 Entidades responsables
             ul.lista-ul--color
               li
                 i.fas.fa-angle-right
@@ -264,6 +266,7 @@
                 | En algunos casos, la atención puede ser gestionada a través del Fondo de Prestaciones Sociales del Policía (FONPREPOL) o entidades similares.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Beneficios y servicios")
+            h4 Beneficios y servicios
             ul.lista-ul--color
               li
                 i.fas.fa-angle-right
@@ -276,6 +279,7 @@
                 | Atención en emergencias y accidentes laborales.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Programas adicionales")
+            h4 Programas adicionales
             ul.lista-ul--color
               li
                 i.fas.fa-angle-right

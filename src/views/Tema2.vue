@@ -10,7 +10,7 @@
     .titulo.mb-4(data-aos="flip-up")
       img(src='@/assets/curso/icono.svg', alt='Imagen decorativa')
       h5.mb-0 Universalidad
-    p.mb-4 El Sistema General de Seguridad Social en salud, cubre a todos los residentes en el país, en todas las etapas de la vida. Garantiza que toda la población tenga acceso a los servicios de salud sin importar su condición socioeconómica, edad, género, ubicación o cualquier otra condición. Además, busca que nadie quede excluido del acceso a la atención en salud, promoviendo la igualdad y la protección de los derechos de todos los ciudadanos.
+    p.mb-4 El Sistema General de Seguridad Social en Salud, cubre a todos los residentes en el país, en todas las etapas de la vida. Garantiza que toda la población tenga acceso a los servicios de salud sin importar su condición socioeconómica, edad, género, ubicación o cualquier otra condición. Además, busca que nadie quede excluido del acceso a la atención en salud, promoviendo la igualdad y la protección de los derechos de todos los ciudadanos.
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img1.png')})`}"
@@ -62,12 +62,12 @@
             img(src='@/assets/curso/icono.svg', alt='Imagen decorativa')
             h5.mb-0 Equidad
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4
+        .col-lg-4.order-2.order-lg-1
           p Busca garantizar que todas las personas tengan acceso a servicios de salud de calidad, independientemente de su condición socioeconómica, ubicación geográfica, género, edad o cualquier otra condición personal. 
           p Este principio se fundamenta en la idea de que la salud es un derecho y no un privilegio, promoviendo la justicia social y la igualdad en el acceso a los recursos y servicios del sistema.
           p En Colombia, este principio está consagrado en la Constitución Política de 1991 y en leyes como la Ley 100 de 1993. Dentro del sistema, implementar el principio de equidad genera el soporte para pilares como:
 
-        .col-lg-4
+        .col-lg-5.col-md-10.col-sm-6.mb-md-4.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/tema2/img8.png', alt='Imagen decorativa')
     .row.justify-content-center.mb-5

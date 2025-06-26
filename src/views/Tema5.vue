@@ -167,7 +167,7 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-check
-                  | mplementar estrategias para gestionar riesgos en salud, como campañas preventivas o intervenciones específicas.
+                  | Implementar estrategias para gestionar riesgos en salud, como campañas preventivas o intervenciones específicas.
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema5/img10.png', alt='Texto que describa la imagen')
@@ -476,7 +476,7 @@
               p.mb-0 Se financia mediante aportes del Estado, cotizaciones y recursos privados.
     .titulo.mb-4(data-aos="flip-up")
       img(src='@/assets/curso/icono.svg', alt='Imagen decorativa')
-      h5.mb-0 B.	Tipos de servicios de salud
+      h5.mb-0 A.	Tipos de servicios de salud
     p A continuación, se describen los principales tipos de servicios de salud, desde la prevención de enfermedades hasta la atención de pacientes con condiciones crónicas o terminales:
 
     .row.mb-4
@@ -515,7 +515,7 @@
     
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Figura 1.
-      span  #[i Representación de una variable categórica aplicando one-hot encoding ]
+      span  #[i Derechos y deberes del usuario en el sistema de salud ]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.movil(data-aos="zoom-in")
