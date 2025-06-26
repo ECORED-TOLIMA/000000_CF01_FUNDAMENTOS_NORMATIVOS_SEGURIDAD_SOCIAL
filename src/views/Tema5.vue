@@ -389,33 +389,34 @@
         .col-lg-5.col-md-10.col-sm-6.mb-md-4.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema5/img25.png', alt='Imagen decorativa')
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-primario.p-4
           p Los servicios sociales complementarios buscan ofrecer una atención integral que vaya más allá de la protección económica o sanitaria básica, promoviendo un desarrollo humano más completo y equitativo.
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p Algunos ejemplos de los servicios sociales complementarios en Colombia, se pueden establecer, a través de:
         .row.justify-content-center.align-items-center
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="l")
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               h4 Programas de alimentación y nutrición
               p Distribución de alimentos o suplementos alimenticios para comunidades vulnerables, niños, adultos mayores o personas en situación de pobreza.
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               h4 Atención psicosocial
               p Servicios de orientación, apoyo psicológico y social para personas afectadas por situaciones de violencia, discapacidad, adicciones o crisis familiares.
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               h4 Atención a adultos mayores
               p Programas específicos que ofrecen acompañamiento, atención médica y actividades recreativas para personas mayores.
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               h4 Rehabilitación e inclusión social
               p Servicios dirigidos a personas con discapacidad para facilitar su integración social y laboral.
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               h4 Apoyo en salud mental
               p Programas que brindan atención especializada para problemas emocionales o psicológicos derivados de condiciones sociales o personales.
 
@@ -573,7 +574,7 @@
                 .tarjeta-titulo
                   .cajon-numero
                     span 01
-                  h4.p-2.text-white Documento de identidad
+                  h4.p-2 Documento de identidad
                 .tarjeta-cuerpo.p-4
                   ul.lista-ul--color
                     li
