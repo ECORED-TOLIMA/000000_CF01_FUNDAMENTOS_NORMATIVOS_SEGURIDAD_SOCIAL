@@ -396,29 +396,30 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p Algunos ejemplos de los servicios sociales complementarios en Colombia, se pueden establecer, a través de:
-        .row.justify-content-center.align-items-center
-      .col-lg-10
-        PasosA.color-acento-contenido.mb-5(tipo="l")
-          .row(titulo="")
-            .col-md-12.mb-4.mb-md-0
-              h4 Programas de alimentación y nutrición
-              p Distribución de alimentos o suplementos alimenticios para comunidades vulnerables, niños, adultos mayores o personas en situación de pobreza.
-          .row(titulo="")
-            .col-md-12.mb-4.mb-md-0
-              h4 Atención psicosocial
-              p.izquierda Servicios de orientación, apoyo psicológico y social para personas afectadas por situaciones de violencia, discapacidad, adicciones o crisis familiares.
-          .row(titulo="")
-            .col-md-12.mb-4.mb-md-0
-              h4 Atención a adultos mayores
-              p Programas específicos que ofrecen acompañamiento, atención médica y actividades recreativas para personas mayores.
-          .row(titulo="")
-            .col-md-12.mb-4.mb-md-0
-              h4 Rehabilitación e inclusión social
-              p.izquierda Servicios dirigidos a personas con discapacidad para facilitar su integración social y laboral.
-          .row(titulo="")
-            .col-md-12.mb-4.mb-md-0
-              h4 Apoyo en salud mental
-              p Programas que brindan atención especializada para problemas emocionales o psicológicos derivados de condiciones sociales o personales.
+    .tarjeta--BG056
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          PasosA.color-acento-contenido.mb-5(tipo="l")
+            .row(titulo="")
+              .col-md-12.mb-4.mb-md-0
+                h4 Programas de alimentación y nutrición
+                p Distribución de alimentos o suplementos alimenticios para comunidades vulnerables, niños, adultos mayores o personas en situación de pobreza.
+            .row(titulo="")
+              .col-md-12.mb-4.mb-md-0
+                h4 Atención psicosocial
+                p.izquierda Servicios de orientación, apoyo psicológico y social para personas afectadas por situaciones de violencia, discapacidad, adicciones o crisis familiares.
+            .row(titulo="")
+              .col-md-12.mb-4.mb-md-0
+                h4 Atención a adultos mayores
+                p Programas específicos que ofrecen acompañamiento, atención médica y actividades recreativas para personas mayores.
+            .row(titulo="")
+              .col-md-12.mb-4.mb-md-0
+                h4 Rehabilitación e inclusión social
+                p.izquierda Servicios dirigidos a personas con discapacidad para facilitar su integración social y laboral.
+            .row(titulo="")
+              .col-md-12.mb-4.mb-md-0
+                h4 Apoyo en salud mental
+                p Programas que brindan atención especializada para problemas emocionales o psicológicos derivados de condiciones sociales o personales.
 
     separador
     #t_5_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
