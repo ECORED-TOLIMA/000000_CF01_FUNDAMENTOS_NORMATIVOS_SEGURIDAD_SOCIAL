@@ -22,55 +22,55 @@
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.order-lg-1.order-2
               h4 Ministerio de Salud
               p Su función es la de rectoría del sistema tal y como lo señala el decreto 4107 de 2011.
-            .col-md-6
+            .col-lg-6.mb-4.order-lg-2.order-1
               figure
                 img(src='@/assets/curso/temas/tema5/img2.png', alt='Texto que describa la imagen')
 
           .row(titulo="")
-            .col-md-6.mb-md-4
+            .col-lg-6.mb-4
               figure
                 img(src='@/assets/curso/temas/tema5/img3.png', alt='Texto que describa la imagen')
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 Entidades Promotoras de Salud (EPS)
               p Son aseguradoras privadas o públicas que reciben las cotizaciones de los afiliados y gestionan la prestación del Plan de Beneficios en Salud Con cargo a la Unidad de Pago por Capitación.
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
               h4 Instituciones Prestadoras de Salud (IPS)
               p Son los hospitales, las clínicas, los laboratorios, entre otros, que prestan directamente los servicios de salud a los usuarios. 
-            .col-md-6
+            .col-lg-6.mb-4.order-lg-2.order-1
               figure
                 img(src='@/assets/curso/temas/tema5/img4.png', alt='Texto que describa la imagen')
 
           .row(titulo="")
-            .col-md-6.mb-md-4
+            .col-md-6.mb-4
               figure
                 img(src='@/assets/curso/temas/tema5/img5.png', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               h4 Régimen contributivo
               p Dirigido a las personas que tienen capacidad de pago, como trabajadores dependientes o independientes y sus familiares, que cotizan para el sistema.
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0.order-lg-1.order-2
               h4 Régimen subsidiado
               p Destinado a las personas con menos recursos económicos, que no tienen acceso al régimen contributivo y son financiados por el Estado. 
-            .col-md-6
+            .col-md-6.mb-4.order-lg-2.order-1
               figure
                 img(src='@/assets/curso/temas/tema5/img6.png', alt='Texto que describa la imagen')
 
           .row(titulo="")
-            .col-md-6.mb-md-4
+            .col-md-6.mb-4
               figure
                 img(src='@/assets/curso/temas/tema5/img7.png', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               h4 Administración de los Recursos del Sistema (ADRES)
               p Es la entidad que administra los recursos financieros del sistema de salud, tanto del régimen contributivo como del subsidiado. 
           .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0.order-lg-1.order-2
               h4 Superintendencia Nacional de Salud – Supersalud
               p Es el ente de vigilancia y control del sistema, que vela por el cumplimiento de las normas y la calidad de los servicios. 
-            .col-md-6
+            .col-md-6.mb-4.order-lg-2.order-1
               figure
                 img(src='@/assets/curso/temas/tema5/img8.png', alt='Texto que describa la imagen')
     p.mb-4 Basado en lo anterior, a continuación, se relacionan las funciones de cada actor:
@@ -78,7 +78,7 @@
       img(src='@/assets/curso/icono.svg', alt='Imagen decorativa')
       h5.mb-0 A. Ministerio de Salud 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.col-md-10.col-sm-6.mb-4
         figure
           img(src='@/assets/curso/temas/tema5/img9.png', alt='Texto que describa la imagen')
 
@@ -168,7 +168,7 @@
                 li
                   i.fas.fa-check
                   | Implementar estrategias para gestionar riesgos en salud, como campañas preventivas o intervenciones específicas.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema5/img10.png', alt='Texto que describa la imagen')
     p.mb-4 Las EPS son responsables de administrar el aseguramiento en salud, facilitar el acceso a servicios, promover acciones preventivas y garantizar una atención oportuna y adecuada para sus afiliados. Su función es clave para que el sistema funcione eficientemente, promoviendo la protección social en salud en Colombia.
@@ -177,7 +177,7 @@
       img(src='@/assets/curso/icono.svg', alt='Imagen decorativa')
       h5.mb-0 C. Instituciones Prestadoras de Salud (IPS) 
     p.mb-4 Se encargan de coordinar y garantizar que los afiliados reciban atención oportuna y de calidad, además de administrar los recursos destinados a la salud de sus afiliados, actuando como intermediarias entre los usuarios y el sistema de salud, asegurando que las personas tengan acceso a los servicios necesarios.
-    .tarjeta-BG02.lg-px-5
+    .tarjeta-BG02.lg-px-5.px-4
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4
           figure
@@ -211,14 +211,14 @@
     p.mb-4 Sus objetivos institucionales son:
     .row.justify-content-center.mb-5
       .col-lg-6.col-sm-10(data-aos="fade-right")
-        .tarjeta.p-2.h-100
+        .tarjeta.color-primario.tarjcone.p-2.h-100
           .row
             .col-lg-2.col-4.mb-lg-0
               img(src='@/assets/curso/temas/tema5/img13.svg' alt="Imagen decorativa")
             .col-lg-10
               p.mb-0 Consolidar la Superintendencia Nacional de Salud como un organismo técnico, rector del sistema de vigilancia, inspección y control.
       .col-lg-6.col-sm-10(data-aos="fade-right")
-        .tarjeta.p-2.h-100
+        .tarjeta.color-primario.tarjcone.p-2.h-100
           .row
             .col-lg-2.col-4.mb-lg-0
               img(src='@/assets/curso/temas/tema5/img14.svg' alt="Imagen decorativa")
@@ -239,14 +239,14 @@
             .col-lg-10
               p.mb-0 Fortalecer a través de mecanismos de inspección, vigilancia y control (IVC), la oportunidad en la generación y flujo de los recursos del Sistema General de Seguridad Social en Salud y los regímenes especiales y exceptuados.
       .col-lg-6.col-sm-10(data-aos="fade-right")
-        .tarjeta.p-2.h-100
+        .tarjeta.color-primario.tarjcone.p-2.h-100
           .row
             .col-lg-2.col-4.mb-lg-0
               img(src='@/assets/curso/temas/tema5/img17.svg' alt="Imagen decorativa")
             .col-lg-10
               p.mb-0 Promover y fortalecer la participación ciudadana para la defensa de los derechos de los usuarios del sector salud.
       .col-lg-6.col-sm-10(data-aos="fade-right")
-        .tarjeta.p-2.h-100
+        .tarjeta.color-primario.tarjcone.p-2.h-100
           .row
             .col-lg-2.col-4.mb-lg-0
               img(src='@/assets/curso/temas/tema5/img18.svg' alt="Imagen decorativa")
@@ -268,7 +268,7 @@
               p.mb-0 Fortalecer la capacidad institucional de la Superintendencia Nacional de Salud.
       
     separador
-    .tarjeta-BG02.lg-px-5
+    .tarjeta-BG02.lg-px-5.px-4
       .row.justify-content-center.align-items-center
         .col-lg-11
           #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -332,7 +332,7 @@
     p Es el conjunto de normas, instituciones y mecanismos destinados a proteger a los trabajadores frente a los riesgos derivados de su actividad laboral. Este sistema busca garantizar la atención y reparación en caso de accidentes de trabajo o enfermedades profesionales, promoviendo condiciones laborales seguras y saludables.
     P.mb-4  Es un componente del Sistema General de Seguridad Social en Colombia, que regula la protección de los trabajadores ante los riesgos asociados a su labor, incluyendo accidentes ocurridos en el lugar de trabajo y enfermedades relacionadas con la actividad laboral. Está administrado por las Administradoras de Riesgos Laborales (ARL), que son entidades encargadas de gestionar y financiar la prevención, atención y rehabilitación de estos riesgos.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.col-md-10.col-6.mb-4
         figure
           img(src='@/assets/curso/temas/tema5/img24.png', alt='Texto que describa la imagen')
 
@@ -365,9 +365,9 @@
       h2 5.4	Servicios sociales complementarios
     p Son un conjunto de beneficios y apoyos adicionales que complementan la protección social brindada por los sistemas de seguridad social, como el de pensiones, riesgos profesionales y salud. Estos servicios buscan mejorar la calidad de vida de las personas y sus familias, especialmente en situaciones de vulnerabilidad o necesidad.
     p.mb-4 Son programas, ayudas o beneficios que no forman parte del sistema obligatorio de seguridad social, pero que se ofrecen para atender necesidades sociales específicas. Pueden incluir asistencia en educación, vivienda, alimentación, apoyo psicológico, atención a adultos mayores, discapacidad u otras áreas que contribuyen al bienestar integral de las personas.
-    .tarjeta-BG02.lg-px-5
+    .tarjeta-BG02.lg-px-5.px-5
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p Los objetivos de los servicios sociales complementarios son:
           ul.lista-ul--color
             li
@@ -386,7 +386,7 @@
               i.fas.fa-angle-right
               | Fomentar la participación comunitaria y el desarrollo social.
 
-        .col-lg-5.col-md-10.col-sm-6.mb-md-4.mb-sm-4
+        .col-lg-5.col-md-10.col-sm-6.mb-md-4.mb-sm-4.order-lg-2.order-1
           figure
             img(src='@/assets/curso/temas/tema5/img25.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-4

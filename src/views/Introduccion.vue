@@ -9,11 +9,11 @@
           i.fas.fa-info
       h1 Introducción
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7.order-2.order-lg-1
         p Este componente formativo tiene como propósito capacitar a los participantes en la caracterización de usuarios del El Sistema General de Seguridad Social en Salud (SGSSS) de Colombia, considerando sus condiciones socioeconómicas y la normativa vigente. Se abordarán conceptos fundamentales del sistema, incluyendo sus regímenes, principios, actores y funciones, así como el marco normativo que lo rige. Además, se enfatizará en la aplicación de protocolos de atención, técnicas de comunicación asertiva y estrategias para el manejo de conflictos, con el fin de garantizar un servicio de calidad y humanizado. Los aprendices desarrollarán habilidades para identificar diferentes tipos de usuarios, establecer su perfil según condiciones socioeconómicas y normativa y atenderlos de manera efectiva. Este enfoque integral busca fortalecer competencias que contribuyan a mejorar la experiencia del usuario y la eficiencia en la prestación de servicios de salud en Colombia.
         p Partiendo de lo anterior, se invita a que acceda al siguiente video, el cual relaciona la temática a tratar durante este componente formativo:
 
-      .col-lg-5
+      .col-lg-5.col-md-10.col-sm-6.order-1.order-lg-2.mb-md-4.mb-4
         figure
           img(src='@/assets/curso/intro/img1.jpg', alt='Imagen decorativa')
     

@@ -11,7 +11,7 @@
       .col-lg-12(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema6/img1.png', alt='Imagen decorativa')
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         p El sistema de salud colombiano está diseñado para atender a diversos grupos poblacionales, teniendo en cuenta sus condiciones económicas, sociales y laborales. Por ello, se han establecido distintos regímenes y mecanismos de afiliación que garantizan el acceso a los servicios de salud. A continuación, se describen los principales tipos de usuarios, cada uno con características particulares en cuanto a su forma de afiliación, financiación y beneficios en salud:
     .titulo.mb-4(data-aos="flip-up")
@@ -57,7 +57,7 @@
       img(src='@/assets/curso/icono.svg', alt='Imagen decorativa')
       h5.mb-0 B.	Usuarios del régimen subsidiado
     p.mb-4 A continuación, su debida explicación:
-    .tarjeta--container.row.mb-4
+    .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.tarjcone.p-5
         .row.justify-content-center.mb-4
           .col-5
@@ -83,7 +83,7 @@
               img(src='@/assets/curso/temas/tema6/img8.svg', alt='Texto que describa la imagen')
         .row.justify-content-center.align-items-center
           .col-10
-            h4.text-center  Características:
+            h4.text-center  Características
             ul.lista-ul--color
               li
                 i.fas.fa-angle-right
@@ -152,7 +152,7 @@
     p.mb-4 Los siguientes, son los usuarios del régimen especial de salud para docentes y magisterio:
 
     .row.justify-content-center.mb-5
-      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema6/img12.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow
@@ -162,7 +162,7 @@
                   .py-2.px-3
                     p.text-center.mb-0 #[b Docentes oficiales y del sector educativo público]
               p.text-center.mb-0 Incluye a maestros, rectores, directivos y personal administrativo de instituciones educativas públicas y privadas afiliados al sistema de salud mediante el régimen especial.
-      .col-10.col-md-6.col-lg-4(data-aos="fade-left")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema6/img13.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow
@@ -172,7 +172,7 @@
                   .py-2.px-3
                     p.text-center.mb-0 #[b Miembros del Fondo Nacional de Prestaciones Sociales del magisterio (FONPREST)]
               p.text-center.mb-0 Es la entidad encargada de administrar las prestaciones sociales y servicios de salud para los docentes oficiales afiliados al magisterio oficial.
-      .col-10.col-md-6.col-lg-4(data-aos="fade-left")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema6/img14.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow
@@ -183,7 +183,7 @@
                     p.text-center.mb-0 #[b Personal docente en instituciones educativas oficiales]
               p.text-center.mb-0 Incluye a todos los docentes vinculados por nombramiento o contrato en instituciones públicas, quienes tienen acceso a coberturas específicas en salud.
     p.mb-4 Es importante conocer las características del régimen de salud para docentes y magisterio:
-    .tarjeta-BG02.lg-px-5
+    .tarjeta-BG02.lg-px-5.px-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-11
           .row.mb-4
@@ -289,22 +289,22 @@
                 | Campañas preventivas en salud pública dirigidas a los miembros policiales.
     p.mb-4 Por último, se relacionan las características específicas de este régimen:
     .row.justify-content-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
-        .crd.crd--grayGrad(data-aos="flip-left")
+      .col-lg-4.mb-4.mb-lg-0
+        .crd2.crd2--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema6/img17.svg", alt="alt").img90.m-auto
           h5.text-center Cobertura diferenciada
           p.text-center.mb-0 Diseñada para responder a las necesidades particulares del personal policial, incluyendo atención en situaciones relacionadas con riesgos laborales.
-      .col-lg-3.mb-4.mb-lg-0
-        .crd.crd--grayGrad(data-aos="flip-left")
+      .col-lg-4.mb-4.mb-lg-0
+        .crd2.crd2--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema6/img18.svg", alt="alt").img90.m-auto
           h5.text-center Acceso preferencial
           p.text-center.mb-0 Los miembros de la policía tienen prioridad en la asignación de citas y servicios médicos en las instituciones afiliadas.
-      .col-lg-3.mb-4.mb-lg-0
-        .crd.crd--grayGrad(data-aos="flip-left")
+      .col-lg-4.mb-4.mb-lg-0
+        .crd2.crd2--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema6/img19.svg", alt="alt").img90.m-auto
@@ -383,7 +383,7 @@
                 img(src='@/assets/curso/temas/tema6/img22.png', alt="Imagen decorativa")
     p.mb-4 Las características específicas de este régimen son:
     .row.justify-content-center.mb-5
-      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema6/img24.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow
@@ -393,7 +393,7 @@
                   .py-2.px-3
                     p.text-center.mb-0 #[b Cobertura diferenciada]
               p.text-center.mb-0 Diseñada para responder a las necesidades particulares del personal militar, incluyendo atención en situaciones relacionadas con riesgos laborales o misiones especiales.
-      .col-10.col-md-6.col-lg-4(data-aos="fade-left")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema6/img25.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow
@@ -403,7 +403,7 @@
                   .py-2.px-3
                     p.text-center.mb-0 #[b Acceso prioritario]
               p.text-center.mb-0 Los miembros activos y retirados tienen prioridad en la asignación de citas médicas y servicios especializados.
-      .col-10.col-md-6.col-lg-4(data-aos="fade-left")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema6/img26.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow
@@ -476,7 +476,7 @@
     p.mb-4 Igualmente, dentro de este régimen, se encuentran otros beneficios sociales, como son:
 
     .tarjeta--container.row.mb-4
-      .col-md.tarjeta.color-primario.tarjcone.p-5
+      .col-lg.tarjeta.color-primario.tarjcone.p-5
         .row.justify-content-center.mb-4
           .col-5
             figure
@@ -485,7 +485,7 @@
           .col-10
             h4.text-center Pensiones
             p Los trabajadores tienen derecho a pensiones por jubilación o retiro según las leyes vigentes.
-      .col-md.tarjeta.color-secundario.tarjcone.p-5
+      .col-lg.tarjeta.color-secundario.tarjcone.p-5
         .row.justify-content-center.mb-4
           .col-5
             figure
@@ -494,7 +494,7 @@
           .col-10
             h4.text-center Capacitación y desarrollo
             p Programas internos para formación profesional.
-      .col-md.tarjeta.color-acento-contenido.tarjcone.p-5
+      .col-lg.tarjeta.color-acento-contenido.tarjcone.p-5
         .row.justify-content-center.mb-4
           .col-5
             figure
@@ -537,7 +537,7 @@
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.1	Marco normativo del sistema de salud colombiano
     
-    .tarjeta-BG02.lg-px-5
+    .tarjeta-BG02.lg-px-5.px-5
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-11
           p Aunque es un marco muy amplio, debido a las constantes modificaciones que ha sufrido desde su promulgación en 1993, algunas claves para entender su funcionamiento incluyen:
@@ -563,7 +563,7 @@
               i.fas.fa-check
               p.mb-0 #[b Decreto 1599 de 2022]: establece el Modelo Integral de Atención en Salud, centrado en el cuidado de personas, familias y comunidades. 
 
-        .col-lg-3
+        .col-lg-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema6/img34.png', alt='Texto que describa la imagen')
 </template>

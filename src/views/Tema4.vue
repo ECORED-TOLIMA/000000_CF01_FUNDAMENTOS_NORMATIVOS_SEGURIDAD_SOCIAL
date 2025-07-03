@@ -28,6 +28,7 @@
             h4 Prestadores de servicios de salud
             p Son las instituciones, clínicas, hospitales, centros de salud, laboratorios, farmacias y profesionales independientes que brindan atención médica, preventiva, de recuperación y rehabilitación a los pacientes. Estos actores son responsables de ofrecer servicios de calidad, cumplir con las normativas y garantizar la satisfacción de los usuarios.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Personal de salud")
+            h4 Personal de salud
             p Incluye a médicos, enfermeros, técnicos, auxiliares, farmacéuticos, terapeutas y otros profesionales que trabajan en la atención directa a los pacientes. Son quienes realizan los procedimientos, diagnósticos, tratamientos y acompañamiento en los procesos de salud y enfermedad.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Entidades de regulación y supervisión")
             h4 Entidades de regulación y supervisión

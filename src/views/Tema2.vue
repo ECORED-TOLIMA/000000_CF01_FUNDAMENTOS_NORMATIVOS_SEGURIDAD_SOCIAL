@@ -20,7 +20,7 @@
     p.mb-4 La universalidad es un principio que impacta en aspectos relevantes como:
     .tarjeta--BG01.px-lg-5
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4
+        .col-lg-4.col-6
           figure
             img(src='@/assets/curso/temas/tema2/img2.png', alt='Imagen decorativa')
         .col-lg-8
@@ -55,7 +55,7 @@
                   img(src='@/assets/curso/temas/tema2/img7.svg' alt='AvatarTop')
               h5.text-center Derecho a la protección y a la atención oportuna
               p.text-center La universalidad también implica que nadie debe esperar demasiado tiempo para recibir atención, y que los servicios deben ser de calidad y adecuados a las necesidades de cada persona.
-    .tarjeta-BG02.lg-px-5
+    .tarjeta-BG02.px-lg-5.px-4
       .row.justify-content-center.align-items-center
         .col-lg-11
           .titulo.mb-4(data-aos="flip-up")
@@ -110,7 +110,7 @@
     p Este principio busca garantizar que los servicios de salud aborden no solo la enfermedad o condición específica, sino también los aspectos preventivos, curativos, rehabilitatorios y promocionales, promoviendo una atención holística.
     p.mb-4 Las siguientes, son las características del principio de integralidad:
     .row.justify-content-center.mb-5
-      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img13.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow
@@ -120,7 +120,7 @@
                   .py-2.px-3
                     p.mb-0 #[b Atención multidisciplinaria]
               p.text-center.mb-0 Implica la colaboración entre diferentes profesionales y niveles de atención para cubrir todas las dimensiones de la salud del paciente.
-      .col-10.col-md-6.col-lg-4(data-aos="fade-left")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img14.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow
@@ -130,7 +130,7 @@
                   .py-2.px-3
                     p.mb-0 #[b Prevención y promoción]
               p.text-center.mb-0 No solo se trata de tratar enfermedades, sino también de prevenir su aparición y promover estilos de vida saludables.
-      .col-10.col-md-6.col-lg-4(data-aos="fade-left")
+      .col-10.col-md-6.col-lg-4.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img15.svg' alt='AvatarTop')
           .tarjeta.color-primario.shadow

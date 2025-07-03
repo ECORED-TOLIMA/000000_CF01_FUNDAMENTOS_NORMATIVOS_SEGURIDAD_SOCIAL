@@ -29,7 +29,7 @@
         .tarjeta.BG03.p-4.h-100
           .row.justify-content-center.align-items-center
             .col-lg-2.col-4.mb-lg-0.mb-4
-              img(src='@/assets/curso/temas/tema3/img1.svg' alt="Imagen decorativa")
+              img(src='@/assets/curso/temas/tema3/img3.svg' alt="Imagen decorativa")
             .col-lg-10
               .h4 Prevención y promoción
               p.mb-0 Promueve acciones preventivas para reducir riesgos y evitar enfermedades costosas o discapacidades.
@@ -37,18 +37,18 @@
         .tarjeta.BG03.p-4.h-100
           .row.justify-content-center.align-items-center
             .col-lg-2.col-4.mb-lg-0.mb-4
-              img(src='@/assets/curso/temas/tema3/img2.svg' alt="Imagen decorativa")
+              img(src='@/assets/curso/temas/tema3/img4.svg' alt="Imagen decorativa")
             .col-lg-10
               .h4 Equidad
               p.mb-0 Garantiza que los recursos y servicios lleguen a quienes más lo necesitan, reduciendo desigualdades en salud.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-md-10.col-sm-3
+      .col-lg-5.col-md-10.col-sm-3.mb-md-4.mb-4
         figure
           img(src='@/assets/curso/temas/tema3/img5.png', alt='Imagen decorativa')
       .col-lg-5
         p La protección social en salud está regulada por leyes como la Ley 100 de 1993 y sus reformas, que establecen el sistema de aseguramiento y protección para diferentes grupos poblacionales, incluyendo aquellos en situación de vulnerabilidad o pobreza. Además, contempla programas específicos para garantizar el acceso a servicios básicos y reducir las barreras económicas o sociales.
         p La protección social del sistema, busca asegurar que todos los colombianos puedan acceder a servicios de salud adecuados y oportunos, protegiéndolos frente a los riesgos económicos derivados de problemas de salud y promoviendo condiciones que favorezcan su bienestar integral.
-    .tarjeta-BG02.lg-px-5
+    .tarjeta-BG02.px-lg-5.px-4
       .row.justify-content-center.align-items-center
         .col-lg-11
           .titulo.mb-4(data-aos="flip-up")
@@ -59,7 +59,7 @@
           p Comprender el Sistema General de Seguridad Social en Salud (SGSSS) de Colombia, es fundamental para entender cómo funciona el sistema de salud en el país y cuál es su propósito principal. Este conocimiento permite valorar la importancia de la protección social, la equidad en el acceso a los servicios de salud y la responsabilidad que tenemos como ciudadanos para cuidar nuestra salud y la de los demás. Además, ayuda a tomar decisiones informadas sobre el cuidado personal y a entender los derechos y deberes que tenemos dentro del sistema de salud.
           p En conjunto, este conocimiento contribuye a formar personal de salud y ciudadanos más informados, comprometidos y capaces de contribuir al bienestar colectivo, promoviendo una sociedad más saludable y equitativa.
 
-        .col-lg-4
+        .col-lg-4.col-8
           figure
             img(src='@/assets/curso/temas/tema3/img6.png', alt='Imagen decorativa')
 
@@ -75,13 +75,10 @@
             figure
               img(src='@/assets/curso/temas/tema3/img7.svg', alt='Imagen decorativa')
           .tarjeta.bgblanco.p-3(x="65%" y="15%" numero="+")
-            .h5.mb-2 ¿Cuáles?
             p ¿Cuáles son mis derechos dentro del SGSSS? 
           .tarjeta.bgblanco.p-3(x="4%" y="53%" numero="+")
-            .h5.mb-2 ¿Cómo?
             p ¿Cómo puedo acceder a los servicios de salud? 
           .tarjeta.bgblanco.p-3(x="4%" y="23%" numero="+")
-            .h5.mb-2 ¿Qué?
             p ¿Qué debo hacer en caso de una emergencia o rechazo en la atención?
       .col-lg-10.movil
           figure
