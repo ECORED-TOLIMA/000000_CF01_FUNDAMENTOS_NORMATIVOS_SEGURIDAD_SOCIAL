@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="84.595" viewBox="0 0 85 84.595">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_400938" data-name="Rectángulo 400938" width="75" height="74" transform="translate(-0.229 0.232)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_400938-2" data-name="Rectángulo 400938" width="79" height="79" transform="translate(-0.306 0.115)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectángulo_410640" data-name="Rectángulo 410640" width="83" height="83" transform="translate(-0.19 -0.001)" fill="#8ce2e5"/>
+    </clipPath>
+  </defs>
+  <g id="img20" transform="translate(-810.422 -5796.861)">
+    <g id="Grupo_1122322" data-name="Grupo 1122322" transform="translate(815.229 5802.629)">
+      <g id="Grupo_1099379" data-name="Grupo 1099379" transform="translate(0 0)">
+        <rect id="Rectángulo_401103" data-name="Rectángulo 401103" width="75" height="74" transform="translate(-0.229 0.232)" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_108927" data-name="Grupo 108927" transform="translate(810.422 5797.115)">
+      <path id="Rectángulo_36179" data-name="Rectángulo 36179" d="M0,0H85V84.341H0Z" transform="translate(0 0)" fill="#abdbff"/>
+    </g>
+    <g id="Enmascarar_grupo_1098834" data-name="Enmascarar grupo 1098834" transform="translate(812.19 5796.862)" clip-path="url(#clip-path-3)">
+      <path id="Sustracción_194" data-name="Sustracción 194" d="M66.96,66.96H0V0H66.96V66.96ZM2.678,2.678v61.6h61.6V2.678Z" transform="translate(49.919 -14.441) rotate(45)" fill="#fff" opacity="0.7"/>
+    </g>
+    <g id="Grupo_1122324" data-name="Grupo 1122324" transform="translate(822.919 5808.397)">
+      <rect id="Rectángulo_401104" data-name="Rectángulo 401104" width="60" height="61" transform="translate(0.081 0.464)" fill="none"/>
+      <g id="Grupo_1122176" data-name="Grupo 1122176" transform="translate(-1.919 -1.036)">
+        <path id="Trazado_912192" data-name="Trazado 912192" d="M3,62H61a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H3A1,1,0,0,0,2,3V61A1,1,0,0,0,3,62Zm57-2H29V49H60Zm0-13H29V45H60ZM31,43V41h6v2ZM50,24a4.964,4.964,0,0,1,3.879,1.867,3.966,3.966,0,0,1-7.756,0A4.965,4.965,0,0,1,50,24Zm-3.375-1.126a3.976,3.976,0,0,1,6.75,0,6.953,6.953,0,0,0-6.75,0ZM50.911,36.83,50,38.2l-.911-1.367L50,33.64ZM47,31h1.674l-1.636,5.725a1,1,0,0,0,.13.83l2,3a1,1,0,0,0,1.664,0l2-3a1,1,0,0,0,.13-.83L51.326,31H53a3,3,0,0,1,3,3v9H44V34a3,3,0,0,1,3-3ZM4,4H60V43H58V34a4.994,4.994,0,0,0-3.721-4.813,5.758,5.758,0,0,0,1.652-3.37A4.184,4.184,0,0,0,56,25a6,6,0,1,0-12,0,3.79,3.79,0,0,0,.057.737,5.9,5.9,0,0,0,1.673,3.447A5,5,0,0,0,42,34v9H39V40a1,1,0,0,0-1-1H35V37h2.843A2.2,2.2,0,0,0,40,34.766V29.235A2.2,2.2,0,0,0,37.843,27H30.157A2.2,2.2,0,0,0,28,29.234v5.531A2.2,2.2,0,0,0,30.157,37H33v2H30a1,1,0,0,0-1,1v3H28a1,1,0,0,0-1,1V60H25V42a1,1,0,0,0-1-1H20V30a1,1,0,0,0-1-1H15a1,1,0,0,0-1,1v1H12V29a1,1,0,0,0-1-1H7a1,1,0,0,0-1,1v2H4ZM30.157,35c-.074,0-.157-.1-.157-.234V29.235c0-.135.083-.235.157-.235h7.686c.074,0,.157.1.157.234v5.531c0,.135-.083.235-.157.235ZM18,31V41H16V31Zm-4,2v8H12V33Zm-4-3V41H8V30ZM4,33H6v8H4ZM4,47h6V45H4V43H23v2H16v2h7V60H4Z" transform="translate(0 0)" fill="#445866"/>
+        <path id="Trazado_912193" data-name="Trazado 912193" d="M12,45h2v2H12Z" transform="translate(0 0)" fill="#445866"/>
+        <path id="Trazado_912194" data-name="Trazado 912194" d="M14,22a8,8,0,1,0-8-8A8.009,8.009,0,0,0,14,22ZM14,8a6,6,0,1,1-6,6A6.006,6.006,0,0,1,14,8Z" transform="translate(0 0)" fill="#445866"/>
+        <path id="Trazado_912195" data-name="Trazado 912195" d="M14,16h4V14H15V10H13v5A1,1,0,0,0,14,16Z" transform="translate(0 0)" fill="#445866"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_410645" data-name="Rectángulo 410645" width="24" height="26" transform="translate(871.422 5796.861)" fill="#2a5f61"/>
+    <text id="_8" data-name="8" transform="translate(878.422 5797.861)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">8</tspan></text>
+  </g>
+</svg>
